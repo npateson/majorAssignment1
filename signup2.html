@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    
+    <div class="small-nav">
+         
+        <a href="construction.html"><button type="button"><strong>Return to Home Page</strong></button></a>
+       
+      </div>
+  </div>
+
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Supreme Constructions Registration Form for Workers</h1>
+          <p id="description" class="description text-center">
+            Please fill all fields genuinely and detaily so we can get the best job for you. Thanks!
+          </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Age</label>
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+            />
+          </div>
+           <div class="form-group">
+            <label id="number-label" for="number"
+              >Phone number</label
+            >
+            <input
+              type="tel"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Phone"
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email<span class="clue">(optional)</span></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+         
+          <div class="form-group">
+            <p>Which option best describes your desired role?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select hiring role</option>
+              <option value="p-owner">Contractor</option>
+              <option value="contractor">Construction Manager</option>
+              <option value="utility">Cost Estimator</option>
+              <option value="other">Builder</option>
+              <option value="other">Plumber</option>
+              <option value="other">Carpenter</option>
+              <option value="other">Roofer</option>
+              <option value="other">Surveyor</option>
+              <option value="other">Painter</option>
+              <option value="other">Ironworker</option>
+              <option value="other">Glazier</option>
+              <option value="other">Electrician</option>
+              <option value="other">Tile Setter</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>How many years of experience do you have in the field chosen above</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select the number of years of experience</option>
+              <option value="p-owner"> &#60; 1 Year </option>
+              <option value="contractor">1-2 Years</option>
+              <option value="utility">3-5 years</option>
+              <option value="other">5-10 Years</option>
+              <option value="other">&#62; 10 years</option>             
+          </div>
+<br>
+          <div class="form-group">
+            
+            <select id="dro" name="work city" class="form-control" required>
+              <option disabled selected value>This information may be verified later</option>
+             
+            </select>
+          </div>
+          <div class="form-group">
+            <p>What city do you prefer to work in?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select Project Site</option>
+              <option value="p-owner">Yaounde</option>
+              <option value="contractor">Douala</option>
+              <option value="utility">Bamenda</option>
+              <option value="other">Buea</option>
+              <option value="p-owner">Ngaoundere</option>
+              <option value="contractor">Bertoua</option>
+              <option value="utility">Bafoussam</option>
+              <option value="other">Kumba</option>
+              <option value="p-owner">Garoua</option>
+              <option value="contractor">Maroua</option>
+              <option value="utility">Mamfe</option>
+              <option value="other">Ebolowa</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>Would you accept out-city offers</p>
+            <label>
+              <input
+                name="outcity" 
+                value="definitely" 
+                type="radio" 
+                class="input-radio"
+                checked
+              />Definitely</label
+            >
+            <label>
+              <input
+                name="outcity"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />Perhaps</label
+            >
+      
+            <label
+              ><input
+                name="outcity"
+                value="not-sure"
+                type="radio"
+                class="input-radio"
+              />Not at all</label
+            >
+          </div>
+          <div class="form-group">
+            <label id="cv" for="cv">Please Upload Your Resume or Other Supporting Documents</label>
+            <input
+              type="file"
+              name="cv"
+              id="cv"
+              class="form-control"
+              placeholder="Upload your CV or Equivalent"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <p>Any other thing you will like to let us know?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your remarks here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit!!! We will get to you shortly.
+            </button>
+          </div>
+        </form>
+      </div>
+      
+  
+
+
+
+
+
+
+
+</body>
+</html>

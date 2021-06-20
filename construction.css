@@ -1,0 +1,227 @@
+#title {
+    background-color: #202020;
+}
+#logo-image {
+    width :20%;
+    /* float: left; */
+    margin-right: 5%;
+   
+
+    
+}
+#company-name {
+    font-size: 2vw;
+}
+
+
+.title-image {
+    width: 70%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 30%;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+h1 {
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: 900
+}
+h4 {
+    color: #C24914;
+    font-weight: bold;
+}
+p {
+    color: #878787;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Buttons */
+  .title-nav a button{
+      width: 100%;
+  }
+
+.small, small {
+      font-size:small;
+  }
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+ .fabspace {
+     margin: 0px 5px;
+ }
+
+ 
+form {
+    margin: 3% auto 8%;
+}
+
+ form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #C24914;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #FC8621;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* ul.ticks {
+    list-style-type: circle;
+} */
+.container-fluid {
+    padding: 3% 12% 13%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #C24914;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #FC8621;
+}
+
+#testimonials {
+   
+    text-align: center;
+    background-color: #202020;
+    color: #fff
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 30%;
+    margin: 20px;
+    
+}
+.fa-sign-in-alt, small, em {
+    color: #C24914;
+}
+#cta .fa-sign-in-alt {
+color: #202020;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+
+@media (max-width: 983px ) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    .title-top {
+        text-align: center;
+    }
+    #tentative-span{
+        display: none;
+    }
+   .base h2, h4,  #company-name {
+        font-size: 3.2vw;
+    }
+  
+}
+ #database {
+    padding: 1% 15%;
+    
+ }
+ .base {
+padding-bottom: 3%;
+ }
+ .base > h2 {
+    color: #C24914;
+    margin-bottom: 4%;
+    margin-top: 4%;
+ }
+
+
+#cta {
+    background-color: #C24914;
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.lower-but {
+    margin-top: 30px;
+    margin: 40px 10px 1px;
+}
+
+.cta-header {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.footerfluid {
+    text-align: center;
+    padding: 10px;
+}
+.social-icon {
+  
+    margin: 10px;
+}
+
+.footerfluid a .inline {
+    display: inline;
+    font-size:small
+}
